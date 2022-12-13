@@ -8,5 +8,5 @@ This is an ETL pipeline built using the Twitter API. This would extract a user's
 3. Load - Loading our dataframe to a SQLite database using SQLAlchemy ORM
 
 
-I used SQLite here as it is an experiment project and the data is not huge.
+I used SQLite here as it is an experiment project and the data is not huge. Same with the tooling! I reason I preferred Pandas instead of Spark is that the data is small.
 I created a developer account in Twitter and requested the elevated access to our account that would allow us to extract data from Twitter. The access will take upto a day to get granted.
